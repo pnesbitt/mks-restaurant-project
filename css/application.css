@@ -103,7 +103,7 @@ section {
     /* TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
     background: #fffdf0;
     color: #221c12;
-    padding-bottom: 20px;
+    padding-bottom: 5%;
 }
 
 .menu h2 {
@@ -125,27 +125,36 @@ section {
 .menu-section h3 a {
     /* TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
     color: rgba(34, 28, 18, .75);
-    border-bottom: 3px solid black;
     /* TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
-    -webkit-transition: opacity 1000ms ease;
-    -moz-transition: opacity 1000ms ease;
-    -ms-transition: opacity 1000ms ease;
-    -o-transition: opacity 1000ms ease;
-    transition: opacity 1000ms ease;
+    -o-transition:opacity 2s ease-in;
+    -ms-transition:opacity .2s ease-in;
+    -moz-transition:opacity .2s ease-in;
+    -webkit-transition:opacity .2s ease-in;
+    transition:opacity .2s ease-in;
 }
 
 
 /* TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
+.menu-section h3 a:hover {
+    color: rgba(34, 28, 18, 1);
+    border-bottom: 3px solid rgba(34, 28, 18, 1);
+}
 
 /* TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
+.menu-section h3 a:active {
+    color: rgba(34, 28, 18, 1);
+    border-bottom: 3px solid rgba(34, 28, 18, 1);
+}
 
 .menu-section-content {
     /* TODO give this some space below the menu links */
+    margin-bottom: 20px;
 }
 
 
 .menu-item {
     /* TODO give each menu item some bottom margin */
+    margin-bottom: 50px;
 }
 
 /* TODO style the menu-item-dish to be bold */
