@@ -14,8 +14,7 @@ $(function() {
     //   ...
 
     // I've given all of the anchors the same class so that I can easily target
-    // all of them with jQuery
-
+    // all of them with jQuery   
     $( document ).on( 'click', '.menu-section-item', function( event ) {
       // Prevent the default action of the event
       event.preventDefault();
