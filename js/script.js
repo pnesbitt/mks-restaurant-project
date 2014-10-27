@@ -20,10 +20,10 @@ $(function() {
       event.preventDefault();
 
       // Assign the id of the clicked element (this) to a variable named id
-      var  = $( this );
+      var id = $( this ).id;
 
       // Remove the class 'is-active' from all menu item headings
-      $( '' ).removeClass( '' );
+      $( '.menu-item-selection' ).removeClass( 'is-active' );
 
       // Add 'is-active' to this specific action that was clicked (this). is-active
       // provides the visual cue for what's active via CSS
