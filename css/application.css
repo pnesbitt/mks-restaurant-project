@@ -139,12 +139,6 @@ section {
     border-bottom: 3px solid rgba(34, 28, 18, 1);
 }
 
-/* TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
-.menu-section h3 a:hover {
-    color: rgba(34, 28, 18, 1);
-    border-bottom: 3px solid rgba(34, 28, 18, 1);
-}
-
 .is-active {
     color: rgba(34, 28, 18, 1);
     border-bottom: 3px solid rgba(34, 28, 18, 1);
