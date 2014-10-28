@@ -200,3 +200,16 @@ section {
 }
 
 /* TODO make the .social-links links be displayed in a row with some space between them. make them 50% opacity, and fade to 100% opacity when you hover over them. */
+.social-links a{
+    opacity: 0.5;
+    padding: 0px 5px;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+.social-links a:hover {
+    opacity: 1;
+}
